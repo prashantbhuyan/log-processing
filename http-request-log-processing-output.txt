@@ -1,0 +1,117 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 /Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7-32 /Users/MicrostrRes/PycharmProjects/hw9pandas/hw9a.py\
+Problem 1 Solution: the host that made the most requests was sandy.rtptok1.epa.gov with 294 requests: \
+sandy.rtptok1.epa.gov        294\
+e659229.boeing.com           292\
+wicdgserv.wic.epa.gov        266\
+keyhole.es.dupont.com        263\
+dwilson.pr.mcs.net           248\
+oea4.r8stw56.epa.gov         176\
+macip26.nacion.co.cr         174\
+dcimsd23.dcimsd.epa.gov      172\
+www0b1.proxy.aol.com         167\
+piweba3y.prodigy.com         158\
+wictrn13.dcwictrn.epa.gov    152\
+nntp1.reach.com              151\
+inetg1.arco.com              151\
+canto04.nmsu.edu             149\
+weisman.metrokc.gov          146\
+...\
+204.97.2.199                  1\
+lion.jvnc.net                 1\
+rac8.wam.umd.edu              1\
+acquinas.netmind.com          1\
+cirrel80.cirtr04.epa.gov      1\
+ad110046.compuserve.com       1\
+ruby.ils.unc.edu              1\
+acoma.arc.unm.edu             1\
+chip0spe.m.eunet.de           1\
+156.42.76.162                 1\
+oppe3050.dcoppe3.epa.gov      1\
+pv7455.vincent.iastate.edu    1\
+servpto06.uniandes.edu.co     1\
+rhabalpc.hns.com              1\
+vacuum.magna.com.au           1\
+Length: 2333, dtype: int64\
+\
+Problem 2 Solution: The value for the maximum bytes received by a host is 4816896 bytes.\
+\
+Problem 3 Solution: Server Load by Busiest Hours (Sorted by Most Requests By Hour): \
+Timestamp          \
+14         Requests    4716\
+13         Requests    4391\
+15         Requests    4284\
+16         Requests    4042\
+12         Requests    3827\
+11         Requests    3820\
+10         Requests    3209\
+9          Requests    3096\
+17         Requests    2793\
+8          Requests    1994\
+18         Requests    1820\
+19         Requests    1493\
+20         Requests    1310\
+23         Requests    1185\
+22         Requests    1117\
+21         Requests    1015\
+7          Requests     846\
+0          Requests     684\
+1          Requests     434\
+2          Requests     399\
+5          Requests     374\
+4          Requests     347\
+6          Requests     303\
+3          Requests     248\
+dtype: int64\
+\
+Problem 4 Solution: Here is a list of the .GIF images sorted by most requests \
+GET/icons/circle_logo_small.gifHTTP                             3189\
+GET/HTTP                                                        2344\
+GET/logos/small_gopher.gifHTTP                                  1838\
+GET/logos/us0flag.gifHTTP                                       1805\
+GET/logos/small_ftp.gifHTTP                                     1803\
+GET/icons/book.gifHTTP                                          1787\
+GET/icons/ok200.gifHTTP                                         1778\
+POST/cgi0bin/waisgate/134.67.99.11=earth1=210=/usr1/comwais/indexes/HTDOCS=gopher%40earth1=0.00=:freeHTTP     698\
+GET/waisicons/text.xbmHTTP                                       608\
+GET/waisicons/unknown.gifHTTP                                    461\
+GET/icons/epa.gifHTTP                                            427\
+GET/icons/large_epa.gifHTTP                                      356\
+GET/Rules.htmlHTTP                                               309\
+GET/icons/epaseal.gifHTTP                                        215\
+GET/logos/env_logo.gifHTTP                                       208\
+...\
+GET/docs/EPA0WASTE/1995/July/Day017HTTP                         1\
+GET/docs/Fall94/metadata.txt.htmlHTTP                           1\
+GET/cgi0bin/waisgate?port=210&ip_address=earth1&database_name=/indexes/Rules&headline=Notice%20of%20Lodging%20of%20Consent%20Decree%20Pursuant%20to%20Comprehensiv&type=TEXT&docid=%01%0aearth1%3a210%02%0e%2findexes%2fRules%03U0%20%2d3825%20%2fusr1%2fgopher%2fgopher%2ddata%2fRules%2fSubset%2fEPA%2dGENERAL%2f1994%2fDecember%2fDay%2d15%2fpr%2d175%04%0aearth1%3a210%05%0e%2findexes%2fRules%06U0%20%2d3825%20%2fusr1%2fgopher%2fgopher%2ddata%2fRules%2fSubset%2fEPA%2dGENERAL%2f1994%2fDecember%2fDay%2d15%2fpr%2d175%07%01%00&seed_words_used=heavy+metals&byte_count=3825HTTP    1\
+GET/cgi0bin/phf?Jserver=www.epa.gov&Qname=tolleHTTP             1\
+GET/docs/OSWRCRA/hazwaste/testHTTP                              1\
+GET/cgi0bin/waisgate?port=210&ip_address=earth1&database_name=/usr1/comwais/indexes/HTDOCS&headline=Non%2dHazardous%20Waste%20%2d%20RCRA%20Subtitle%20D&type=HTML&docid=%01%0aearth1%3a210%02%1c%2fusr1%2fcomwais%2findexes%2fHTDOCS%0340%20%2d1391%20%2fusr1%2fhttpd%2fhtdocs%2fOSWRCRA%2fnon%2dhw%2findex%2ehtml%04%0aearth1%3a210%05%1c%2fusr1%2fcomwais%2findexes%2fHTDOCS%0640%20%2d1391%20%2fusr1%2fhttpd%2fhtdocs%2fOSWRCRA%2fnon%2dhw%2findex%2ehtml%07%01%00&seed_words_used=metal+recycle&byte_count=1391HTTP    1\
+GET/reports/Iservers/HTTP/HTTP                                  1\
+GET/docs/ChemLibCIP/fal94cip.txt.htmlHTTP                       1\
+GET/docs/RadonPubs/metacons.txt.htmlHTTP                        1\
+GET/docs/OSWRCRA/hazwaste/data/bireport/lqglist.wp.htmlHTTP     1\
+GET/cgi0bin/waisgate?port=210&ip_address=earth1&database_name=/usr1/comwais/indexes/HTDOCS&headline=%20Reducing%20Wetlands%20Regulatory%20Burdens&type=HTML&docid=%01%0aearth1%3a210%02%1c%2fusr1%2fcomwais%2findexes%2fHTDOCS%03%240%20%2d3452%20%2fusr1%2fhttpd%2fhtdocs%2frwrb%2ehtml%04%0aearth1%3a210%05%1c%2fusr1%2fcomwais%2findexes%2fHTDOCS%06%240%20%2d3452%20%2fusr1%2fhttpd%2fhtdocs%2frwrb%2ehtml%07%01%00&seed_words_used=wetlands&byte_count=3452HTTP    1\
+GET/region10/www//long.txtHTTP                                  1\
+GET/cgi0bin/waisgate?port=210&ip_address=earth1&database_name=/usr1/comwais/indexes/HTDOCS&headline=%20EPA%20Office%20of%20Research%20and%20Development%2e&type=HTML&docid=%01%0aearth1%3a210%02%1c%2fusr1%2fcomwais%2findexes%2fHTDOCS%03%220%20%2d364%20%2fusr1%2fhttpd%2fhtdocs%2fORD%2ehtml%04%0aearth1%3a210%05%1c%2fusr1%2fcomwais%2findexes%2fHTDOCS%06%220%20%2d364%20%2fusr1%2fhttpd%2fhtdocs%2fORD%2ehtml%07%01%00&seed_words_used=ecosystems+office&byte_count=364HTTP    1\
+GET/cgi0bin/phf?Jserver=www.epa.gov&Qname=gerrishHTTP           1\
+GET/ngispr/smthief.gifHTTP                                      1\
+Length: 6619, dtype: int64\
+\
+Problem 5 Solution: Here are the instances of Codes other than 200 \
+304    5300\
+302    4506\
+404     611\
+501     272\
+403     272\
+500      69\
+400       6\
+dtype: int64\
+\
+Process finished with exit code 0\
+}
